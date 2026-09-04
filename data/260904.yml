@@ -7,13 +7,13 @@ about:
   head: 4f31cd3
   archived: false
   latestVersion: 39.2.0
-  collectedAt: 2026-09-04T19:36:48Z
+  collectedAt: 2026-09-04T20:56:44Z
 timeline:
   created: 2018-01-25
   lastCommit: 2026-08-26
   lastRelease: 2025-11-12
 popularity:
-  star: 20619
+  star: 20618
   watcher: 116
   fork: 485
   release: 77
@@ -83,6 +83,64 @@ total:
   openIssue: 21
   commit: 792
 ---
+path: /home/runner/.x-repo/github.com/antonmedv/fx
+collectedAt: 2026-09-04T20:56:45Z
+loc:
+  Go:
+    code: 12328
+    comments: 399
+    blanks: 1419
+    files: 64
+  JavaScript:
+    code: 1172
+    comments: 2
+    blanks: 155
+    files: 5
+  Json:
+    code: 45
+    comments: 0
+    blanks: 0
+    files: 3
+  Zsh:
+    code: 32
+    comments: 1
+    blanks: 5
+    files: 1
+  Yaml:
+    code: 27
+    comments: 0
+    blanks: 3
+    files: 1
+  Dockerfile:
+    code: 11
+    comments: 0
+    blanks: 10
+    files: 1
+  Bash:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Fish:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 117
+    blanks: 55
+    files: 3
+  Text:
+    code: 0
+    comments: 12
+    blanks: 7
+    files: 1
+total:
+  code: 13617
+  comments: 531
+  blanks: 1654
+  files: 81
 ---
 date: "2026-08-24"
 repo:
