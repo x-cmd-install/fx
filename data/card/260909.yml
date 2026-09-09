@@ -7,7 +7,7 @@ about:
   latestVersion: "39.2.0"
   latestRelease: "39.2.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:36:45Z
+  collectedAt: 2026-09-09T18:48:53Z
 timeline:
   created: 2018-01-25
   lastCommit: 2026-08-26
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-11-12
   lastPrerelease: 
 popularity:
-  star: 20621
+  star: 20619
   watcher: 117
   fork: 488
   release: 77
@@ -86,7 +86,7 @@ total:
   commit: 792
 ---
 path: /home/runner/.x-repo/github.com/antonmedv/fx
-collectedAt: 2026-09-09T04:36:46Z
+collectedAt: 2026-09-09T18:48:55Z
 loc:
   Go:
     code: 12328
