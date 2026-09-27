@@ -14,14 +14,14 @@ x install fx
 
 ## Code insight
 
-Total: **13,617** lines of code across **74** files in the top 5 languages.
+Total: **18,689** lines of code across **91** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 12,328 | 399 | 1,419 | 64 |
-| JavaScript | 1,172 | 2 | 155 | 5 |
+| Go | 17,399 | 665 | 1,756 | 81 |
+| JavaScript | 1,172 | 2 | 156 | 5 |
 | Json | 45 | 0 | 0 | 3 |
-| Zsh | 32 | 1 | 5 | 1 |
+| Zsh | 33 | 3 | 5 | 1 |
 | Yaml | 27 | 0 | 3 | 1 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `39.2.0` (2025-11-12)
-- **Last commit**: 2026-08-26
+- **Last commit**: 2026-09-26
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 20,641 · **Forks**: 493 · **Open issues**: 271 · **Contributors**: 41
+- **Stars**: 20,640 · **Forks**: 493 · **Open issues**: 271 · **Contributors**: 41
 
 ## Totals (cumulative)
 
-- **Releases**: 77 · **Merged PRs**: 58 · **Open PRs**: 12 · **Closed issues**: 248 · **Open issues**: 23 · **Commits**: 792
+- **Releases**: 77 · **Merged PRs**: 58 · **Open PRs**: 11 · **Closed issues**: 253 · **Open issues**: 18 · **Commits**: 829
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 0 | 0 | 6 | 0 | 3 | 0 |
-| last60d | 2026-07-28 | 0 | 0 | 8 | 0 | 3 | 1 |
-| 90d | 2026-06-28 | 0 | 1 | 8 | 2 | 4 | 2 |
-| last180d | 2026-03-30 | 0 | 4 | 9 | 2 | 10 | 5 |
-| 360d | 2025-10-01 | 1 | 8 | 12 | 16 | 16 | 51 |
-| last720d | 2024-10-06 | 15 | 19 | 12 | 44 | 21 | 195 |
+| 30d | 2026-08-28 | 0 | 0 | 6 | 1 | 2 | 33 |
+| last60d | 2026-07-29 | 0 | 0 | 8 | 1 | 2 | 34 |
+| 90d | 2026-06-29 | 0 | 1 | 8 | 3 | 3 | 35 |
+| last180d | 2026-03-31 | 0 | 4 | 9 | 5 | 7 | 38 |
+| 360d | 2025-10-02 | 1 | 8 | 11 | 20 | 12 | 88 |
+| last720d | 2024-10-07 | 15 | 19 | 11 | 48 | 17 | 232 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T04:51:07Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:13:41Z._
