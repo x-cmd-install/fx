@@ -14,25 +14,25 @@ x install fx
 
 ## 代码洞察
 
-合计: **19,569** 行代码（覆盖前 5 种语言、共 **96** 个文件）。
+合计: **22,932** 行代码（覆盖前 5 种语言、共 **123** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 18,279 | 732 | 1,897 | 86 |
-| JavaScript | 1,172 | 2 | 156 | 5 |
-| Json | 45 | 0 | 0 | 3 |
+| Go | 21,568 | 1,009 | 2,257 | 112 |
+| JavaScript | 1,223 | 4 | 161 | 5 |
+| Json | 68 | 0 | 0 | 4 |
 | Zsh | 33 | 3 | 5 | 1 |
 | Yaml | 27 | 0 | 3 | 1 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.5 / 10**
+总评分: **3.8 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/30 approved changesets -- score normalized to 2
-- **Maintained** (4/10) — 2 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 4
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **SAST** (0/10) — no SAST tool detected
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install fx
 ## 发布
 
 - **最新版本**: `39.2.0` (2025-11-12)
-- **最近提交**: 2026-09-27
+- **最近提交**: 2026-09-28
 - **Release 含资产**: 6 个
 
 ## 流行度
 
-- **Star**: 20,643 · **Fork**: 493 · **开放 issue**: 271 · **贡献者**: 42
+- **Star**: 20,644 · **Fork**: 493 · **开放 issue**: 271 · **贡献者**: 42
 
 ## 累计统计
 
-- **发布数**: 77 · **已合并 PR**: 60 · **开放 PR**: 4 · **已关闭 issue**: 260 · **开放 issue**: 11 · **提交数**: 838
+- **发布数**: 77 · **已合并 PR**: 60 · **开放 PR**: 3 · **已关闭 issue**: 265 · **开放 issue**: 6 · **提交数**: 868
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 2 | 2 | 2 | 0 | 42 |
-| last60d | 2026-07-30 | 0 | 2 | 3 | 2 | 1 | 43 |
-| 90d | 2026-06-30 | 0 | 3 | 3 | 4 | 2 | 44 |
-| last180d | 2026-04-01 | 0 | 6 | 3 | 7 | 5 | 47 |
-| 360d | 2025-10-03 | 1 | 10 | 4 | 25 | 7 | 97 |
-| last720d | 2024-10-08 | 15 | 21 | 4 | 54 | 11 | 241 |
+| 30d | 2026-08-30 | 0 | 2 | 1 | 2 | 0 | 72 |
+| last60d | 2026-07-31 | 0 | 2 | 2 | 3 | 0 | 73 |
+| 90d | 2026-07-01 | 0 | 3 | 2 | 6 | 0 | 74 |
+| last180d | 2026-04-02 | 0 | 6 | 2 | 10 | 2 | 77 |
+| 360d | 2025-10-04 | 1 | 10 | 3 | 30 | 2 | 127 |
+| last720d | 2024-10-09 | 15 | 21 | 3 | 59 | 6 | 271 |
 
 ## Release 资产
 
@@ -85,4 +85,4 @@ fx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260928.yml` · 2026-09-28T05:16:43Z._
+_数据快照: `data/card/260929.yml` · 2026-09-29T05:44:14Z._
