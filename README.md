@@ -14,11 +14,11 @@ x install fx
 
 ## Code insight
 
-Total: **24,064** lines of code across **127** files in the top 5 languages.
+Total: **24,210** lines of code across **129** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 22,686 | 1,045 | 2,375 | 116 |
+| Go | 22,832 | 1,066 | 2,385 | 118 |
 | JavaScript | 1,223 | 4 | 161 | 5 |
 | Json | 68 | 0 | 0 | 4 |
 | Yaml | 41 | 0 | 9 | 1 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `39.2.0` (2025-11-12)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-10-02
 - **Assets in release**: 6
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 3 · **Closed issues**: 266 · **Open issues**: 5 · **Commits**: 874
+- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 3 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 877
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 0 | 2 | 1 | 2 | 0 | 78 |
-| last60d | 2026-08-03 | 0 | 2 | 2 | 3 | 0 | 79 |
-| 90d | 2026-07-04 | 0 | 3 | 2 | 6 | 0 | 80 |
-| last180d | 2026-04-05 | 0 | 6 | 2 | 11 | 1 | 83 |
-| 360d | 2025-10-07 | 1 | 10 | 3 | 31 | 1 | 133 |
-| last720d | 2024-10-12 | 15 | 21 | 3 | 60 | 5 | 277 |
+| 30d | 2026-09-03 | 0 | 2 | 1 | 2 | 0 | 81 |
+| last60d | 2026-08-04 | 0 | 2 | 2 | 3 | 0 | 82 |
+| 90d | 2026-07-05 | 0 | 3 | 2 | 6 | 0 | 83 |
+| last180d | 2026-04-06 | 0 | 6 | 2 | 12 | 0 | 86 |
+| 360d | 2025-10-08 | 1 | 10 | 3 | 31 | 0 | 136 |
+| last720d | 2024-10-13 | 15 | 21 | 3 | 61 | 4 | 280 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T05:39:56Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T05:23:29Z._
