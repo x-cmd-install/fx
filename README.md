@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,644 · **Forks**: 493 · **Open issues**: 271 · **Contributors**: 42
+- **Stars**: 20,643 · **Forks**: 493 · **Open issues**: 271 · **Contributors**: 42
 
 ## Totals (cumulative)
 
-- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 3 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 877
+- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 0 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 877
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 2 | 1 | 2 | 0 | 81 |
-| last60d | 2026-08-04 | 0 | 2 | 2 | 3 | 0 | 82 |
-| 90d | 2026-07-05 | 0 | 3 | 2 | 6 | 0 | 83 |
-| last180d | 2026-04-06 | 0 | 6 | 2 | 12 | 0 | 86 |
-| 360d | 2025-10-08 | 1 | 10 | 3 | 31 | 0 | 136 |
-| last720d | 2024-10-13 | 15 | 21 | 3 | 61 | 4 | 280 |
+| 30d | 2026-09-04 | 0 | 2 | 0 | 2 | 0 | 81 |
+| last60d | 2026-08-05 | 0 | 2 | 0 | 3 | 0 | 82 |
+| 90d | 2026-07-06 | 0 | 3 | 0 | 6 | 0 | 83 |
+| last180d | 2026-04-07 | 0 | 6 | 0 | 12 | 0 | 86 |
+| 360d | 2025-10-09 | 1 | 10 | 0 | 31 | 0 | 136 |
+| last720d | 2024-10-14 | 15 | 21 | 0 | 61 | 4 | 280 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:23:29Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T05:48:15Z._
