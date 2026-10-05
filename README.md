@@ -14,11 +14,11 @@ x install fx
 
 ## Code insight
 
-Total: **24,210** lines of code across **129** files in the top 5 languages.
+Total: **25,581** lines of code across **140** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 22,832 | 1,066 | 2,385 | 118 |
+| Go | 24,203 | 1,236 | 2,527 | 129 |
 | JavaScript | 1,223 | 4 | 161 | 5 |
 | Json | 68 | 0 | 0 | 4 |
 | Yaml | 41 | 0 | 9 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `39.2.0` (2025-11-12)
-- **Last commit**: 2026-10-02
+- **Last commit**: 2026-10-04
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 20,643 · **Forks**: 493 · **Open issues**: 271 · **Contributors**: 42
+- **Stars**: 20,642 · **Forks**: 494 · **Open issues**: 271 · **Contributors**: 42
 
 ## Totals (cumulative)
 
-- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 0 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 877
+- **Releases**: 77 · **Merged PRs**: 60 · **Open PRs**: 1 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 884
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 2 | 0 | 2 | 0 | 81 |
-| last60d | 2026-08-05 | 0 | 2 | 0 | 3 | 0 | 82 |
-| 90d | 2026-07-06 | 0 | 3 | 0 | 6 | 0 | 83 |
-| last180d | 2026-04-07 | 0 | 6 | 0 | 12 | 0 | 86 |
-| 360d | 2025-10-09 | 1 | 10 | 0 | 31 | 0 | 136 |
-| last720d | 2024-10-14 | 15 | 21 | 0 | 61 | 4 | 280 |
+| 30d | 2026-09-05 | 0 | 2 | 1 | 2 | 0 | 88 |
+| last60d | 2026-08-06 | 0 | 2 | 1 | 3 | 0 | 89 |
+| 90d | 2026-07-07 | 0 | 3 | 1 | 6 | 0 | 90 |
+| last180d | 2026-04-08 | 0 | 6 | 1 | 10 | 0 | 93 |
+| 360d | 2025-10-10 | 1 | 10 | 1 | 31 | 0 | 143 |
+| last720d | 2024-10-15 | 15 | 21 | 1 | 61 | 4 | 287 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:48:15Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:29:12Z._
