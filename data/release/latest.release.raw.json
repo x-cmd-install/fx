@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 22522848,
       "digest": "sha256:b071f677c13b25aa8576d7af3a7b8e8c16488c430f5a8360a370b5cbeec94ec2",
-      "download_count": 28,
+      "download_count": 38,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:50Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_darwin_amd64"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 21388898,
       "digest": "sha256:d3a93b9e78d77ebc2c8cfc9b7101e20d6e46317d5b41ee149d8ff8b6c1899d66",
-      "download_count": 94,
+      "download_count": 119,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:49Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_darwin_arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 22306758,
       "digest": "sha256:c5cf146137d3d1819384356366913f1f98bcf5b334e5f100e4705c081f65ed8e",
-      "download_count": 303,
+      "download_count": 411,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:49Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_linux_amd64"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 21018603,
       "digest": "sha256:1200eb9c7e78aae2108c84809a90e361193b2859c2ea528ad49f2e8b690620c9",
-      "download_count": 85,
+      "download_count": 110,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:49Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_linux_arm64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 22693376,
       "digest": "sha256:95ad6b786a435c7e06e15c7090f4fe0d6e92ef6f47e9a5e76f493a9626629f70",
-      "download_count": 328,
+      "download_count": 395,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:49Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_windows_amd64.exe"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 21131776,
       "digest": "sha256:a596df619f4126914b3e1c8367820165ba5d292fb53cdf177cfceaf840a7d973",
-      "download_count": 23,
+      "download_count": 30,
       "created_at": "2026-10-05T16:07:42Z",
       "updated_at": "2026-10-05T16:07:49Z",
       "browser_download_url": "https://github.com/antonmedv/fx/releases/download/40.0.0/fx_windows_arm64.exe"
