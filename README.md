@@ -30,9 +30,9 @@ Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **SAST** (0/10) — no SAST tool detected
+- **Code-Review** (0/10) — Found 0/29 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,664 · **Forks**: 494 · **Open issues**: 271 · **Contributors**: 42
+- **Stars**: 20,671 · **Forks**: 495 · **Open issues**: 271 · **Contributors**: 42
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 1 | 3 | 1 | 1 | 0 | 95 |
-| last60d | 2026-08-13 | 1 | 3 | 1 | 3 | 0 | 96 |
-| 90d | 2026-07-14 | 1 | 4 | 1 | 4 | 0 | 97 |
-| last180d | 2026-04-15 | 1 | 7 | 1 | 9 | 0 | 100 |
-| 360d | 2025-10-17 | 2 | 11 | 1 | 28 | 0 | 150 |
-| last720d | 2024-10-22 | 16 | 22 | 1 | 61 | 4 | 294 |
+| 30d | 2026-09-13 | 1 | 3 | 1 | 1 | 0 | 95 |
+| last60d | 2026-08-14 | 1 | 3 | 1 | 3 | 0 | 96 |
+| 90d | 2026-07-15 | 1 | 4 | 1 | 4 | 0 | 97 |
+| last180d | 2026-04-16 | 1 | 7 | 1 | 9 | 0 | 100 |
+| 360d | 2025-10-18 | 2 | 11 | 1 | 28 | 0 | 150 |
+| last720d | 2024-10-23 | 16 | 22 | 1 | 61 | 4 | 294 |
 
 ## Release assets
 
@@ -85,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T05:56:28Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:45:02Z._
