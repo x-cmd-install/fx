@@ -14,11 +14,11 @@ x install fx
 
 ## 代码洞察
 
-合计: **25,589** 行代码（覆盖前 5 种语言、共 **140** 个文件）。
+合计: **25,640** 行代码（覆盖前 5 种语言、共 **141** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 24,207 | 1,238 | 2,527 | 129 |
+| Go | 24,258 | 1,238 | 2,535 | 130 |
 | JavaScript | 1,223 | 4 | 161 | 5 |
 | Json | 68 | 0 | 0 | 4 |
 | Yaml | 45 | 0 | 5 | 1 |
@@ -42,39 +42,52 @@ x install fx
 
 ## 发布
 
-- **最新版本**: `40.0.0` (2026-10-05)
-- **最近提交**: 2026-10-08
+- **最新版本**: `40.0.1` (2026-10-22)
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 6 个
 
 ## 流行度
 
-- **Star**: 20,694 · **Fork**: 495 · **开放 issue**: 271 · **贡献者**: 42
+- **Star**: 20,694 · **Fork**: 495 · **开放 issue**: 271 · **贡献者**: 43
 
 ## 累计统计
 
-- **发布数**: 78 · **已合并 PR**: 61 · **开放 PR**: 2 · **已关闭 issue**: 267 · **开放 issue**: 4 · **提交数**: 891
+- **发布数**: 79 · **已合并 PR**: 62 · **开放 PR**: 1 · **已关闭 issue**: 267 · **开放 issue**: 4 · **提交数**: 893
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 2 | 2 | 0 | 0 | 95 |
-| last60d | 2026-08-23 | 1 | 3 | 2 | 3 | 0 | 96 |
-| 90d | 2026-07-24 | 1 | 4 | 2 | 3 | 0 | 97 |
-| last180d | 2026-04-25 | 1 | 7 | 2 | 9 | 0 | 100 |
-| 360d | 2025-10-27 | 2 | 11 | 2 | 28 | 0 | 150 |
-| last720d | 2024-11-01 | 16 | 22 | 2 | 61 | 4 | 294 |
+| 30d | 2026-09-23 | 2 | 3 | 1 | 0 | 0 | 97 |
+| last60d | 2026-08-24 | 2 | 4 | 1 | 3 | 0 | 98 |
+| 90d | 2026-07-25 | 2 | 5 | 1 | 3 | 0 | 99 |
+| last180d | 2026-04-26 | 2 | 8 | 1 | 9 | 0 | 102 |
+| 360d | 2025-10-28 | 3 | 12 | 1 | 28 | 0 | 152 |
+| last720d | 2024-11-02 | 17 | 23 | 1 | 61 | 4 | 296 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [fx_darwin_amd64](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_darwin_amd64) | 21.5 MiB | `native/darwin/x64` |
-| [fx_darwin_arm64](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_darwin_arm64) | 20.4 MiB | `native/darwin/arm64` |
-| [fx_linux_amd64](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_linux_amd64) | 21.3 MiB | `native/linux/x64` |
-| [fx_linux_arm64](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_linux_arm64) | 20.0 MiB | `native/linux/arm64` |
-| [fx_windows_amd64.exe](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_windows_amd64.exe) | 21.6 MiB | `native/win/x64` |
-| [fx_windows_arm64.exe](https://github.com/antonmedv/fx/releases/download/40.0.0/fx_windows_arm64.exe) | 20.2 MiB | `native/win/arm64` |
+| [fx_darwin_amd64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_darwin_amd64) | 20.6 MiB | `native/darwin/x64` |
+| [fx_darwin_arm64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_darwin_arm64) | 19.7 MiB | `native/darwin/arm64` |
+| [fx_linux_amd64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_linux_amd64) | 20.3 MiB | `native/linux/x64` |
+| [fx_linux_arm64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_linux_arm64) | 19.3 MiB | `native/linux/arm64` |
+| [fx_windows_amd64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe) | 20.8 MiB | `native/win/x64` |
+| [fx_windows_arm64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_arm64.exe) | 19.5 MiB | `native/win/arm64` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/fx) 上共有 **51** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**34** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Arch | `40.0.1` | ✅ latest |
+| Homebrew | `40.0.1` | ✅ latest |
+| Nix unstable | `40.0.0` | ⚠️ outdated |
+| Void | `39.2.0` | ⚠️ outdated |
+| Alpine edge | `40.0.1` | ✅ latest |
+| openSUSE Tumbleweed | `40.0.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -85,4 +98,4 @@ fx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:34:39Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:39:16Z._
