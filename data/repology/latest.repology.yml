@@ -1,36 +1,25 @@
-- repo: altsisyphus
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.1.0
+  origversion: 24.1.0-bp156.1.13
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
   srcname: fx
   binnames:
     - fx
     - fx-debuginfo
+    - fx-debugsource
   visiblename: fx
-  version: 39.2.0
-  origversion: 39.2.0-alt1
-  status: outdated
-  summary: Terminal JSON viewer & processor
-  maintainers:
-    - karonus@altlinux.org
-  licenses:
-    - MIT
-  categories:
-    - Text tools
-- repo: arch
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: fx
-  visiblename: fx
-  version: 24.0.0
-  origversion: 24.0.0-bp155.1.26
+  version: 40.0.0
+  origversion: 40.0.0-1.1
   status: outdated
   summary: Terminal JSON viewer
   licenses:
@@ -248,6 +237,33 @@
     - MIT
   categories:
     - Text tools
+- repo: altsisyphus
+  srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+  visiblename: fx
+  version: 39.2.0
+  origversion: 39.2.0-alt1
+  status: outdated
+  summary: Terminal JSON viewer & processor
+  maintainers:
+    - karonus@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Text tools
+- repo: arch
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
 - repo: epel_9
   srcname: fx
   binnames:
@@ -355,18 +371,6 @@
     - ISC
   categories:
     - app-misc
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: fx
-  visiblename: fx
-  version: 24.1.0
-  origversion: 24.1.0-bp156.1.13
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -541,9 +545,9 @@
 - repo: nix_unstable
   srcname: fx
   visiblename: fx
-  version: 40.0.0
+  version: 40.0.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal JSON viewer
   maintainers:
     - phanirithvij2000@gmail.com
@@ -561,16 +565,12 @@
     - ports@openbsd.org
   categories:
     - textproc
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
   srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
   visiblename: fx
-  version: 40.0.0
-  origversion: 40.0.0-1.1
+  version: 24.0.0
+  origversion: 24.0.0-bp155.1.26
   status: outdated
   summary: Terminal JSON viewer
   licenses:
@@ -594,9 +594,9 @@
   srcname: fx
   binname: fx
   visiblename: fx
-  version: 40.0.0
-  origversion: 40.0.0-1
-  status: outdated
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
