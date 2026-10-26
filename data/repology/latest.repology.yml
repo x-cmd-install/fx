@@ -1,31 +1,26 @@
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
+- repo: termux
   srcname: fx
+  binname: fx
   visiblename: fx
-  version: 24.1.0
-  origversion: 24.1.0-bp156.1.13
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Interactive JSON viewer on your terminal
+  maintainers:
+    - flosnvjx@github
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: 39.2.0_2
   status: outdated
-  summary: Terminal JSON viewer
+  summary: Terminal JSON viewer & processor
+  maintainers:
+    - pangolin@vivaldi.net
   licenses:
     - MIT
-  categories:
-    - Productivity/Text/Utilities
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
-  visiblename: fx
-  version: 40.0.0
-  origversion: 40.0.0-1.1
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -52,6 +47,17 @@
     - yd-alpine@tetsumaki.net
   licenses:
     - MIT
+- repo: stalix_dev
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_21
   subrepo: community
   srcname: fx
@@ -534,9 +540,9 @@
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
-  version: 40.0.0
+  version: 40.0.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal JSON viewer
   maintainers:
     - phanirithvij2000@gmail.com
@@ -571,6 +577,34 @@
   visiblename: fx
   version: 24.0.0
   origversion: 24.0.0-bp155.1.26
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.1.0
+  origversion: 24.1.0-bp156.1.13
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
+  visiblename: fx
+  version: 40.0.0
+  origversion: 40.0.0-1.1
   status: outdated
   summary: Terminal JSON viewer
   licenses:
@@ -620,37 +654,3 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: termux
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  summary: Interactive JSON viewer on your terminal
-  maintainers:
-    - flosnvjx@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: 39.2.0_2
-  status: outdated
-  summary: Terminal JSON viewer & processor
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - MIT
