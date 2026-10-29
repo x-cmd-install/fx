@@ -1,24 +1,12 @@
-- repo: termux
+- repo: arch
+  subrepo: extra
   srcname: fx
   binname: fx
   visiblename: fx
   version: 40.0.1
-  origversion: null
+  origversion: 40.0.1-1
   status: newest
-  summary: Interactive JSON viewer on your terminal
-  maintainers:
-    - flosnvjx@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: 39.2.0_2
-  status: outdated
-  summary: Terminal JSON viewer & processor
-  maintainers:
-    - pangolin@vivaldi.net
+  summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
 - repo: alpine_3_20
@@ -47,17 +35,6 @@
     - yd-alpine@tetsumaki.net
   licenses:
     - MIT
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: alpine_3_21
   subrepo: community
   srcname: fx
@@ -97,6 +74,19 @@
     - yd-alpine@tetsumaki.net
   licenses:
     - MIT
+- repo: epel_9
+  srcname: fx
+  binnames:
+    - fx
+  visiblename: fx
+  version: 20.0.2
+  origversion: 20.0.2-17.el9
+  status: outdated
+  summary: Command-line JSON processing tool
+  licenses:
+    - MIT and OFL
+  categories:
+    - Unspecified
 - repo: alpine_3_22
   subrepo: community
   srcname: fx
@@ -259,30 +249,6 @@
     - MIT
   categories:
     - Text tools
-- repo: arch
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: epel_9
-  srcname: fx
-  binnames:
-    - fx
-  visiblename: fx
-  version: 20.0.2
-  origversion: 20.0.2-17.el9
-  status: outdated
-  summary: Command-line JSON processing tool
-  licenses:
-    - MIT and OFL
-  categories:
-    - Unspecified
 - repo: freebsd
   srcname: sysutils/fx
   binname: fx
@@ -654,3 +620,37 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: stalix_dev
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: termux
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Interactive JSON viewer on your terminal
+  maintainers:
+    - flosnvjx@github
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: 39.2.0_2
+  status: outdated
+  summary: Terminal JSON viewer & processor
+  maintainers:
+    - pangolin@vivaldi.net
+  licenses:
+    - MIT
