@@ -1,14 +1,61 @@
-- repo: arch
-  subrepo: extra
+- repo: nix_stable_25_05
   srcname: fx
-  binname: fx
   visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
+  version: 36.0.3
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - phanirithvij2000@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: fx
+  visiblename: fx
+  version: 34.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal JSON viewer
+- repo: nix_stable_24_11
+  srcname: fx
+  visiblename: fx
+  version: 35.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Terminal JSON viewer
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -74,19 +121,6 @@
     - yd-alpine@tetsumaki.net
   licenses:
     - MIT
-- repo: epel_9
-  srcname: fx
-  binnames:
-    - fx
-  visiblename: fx
-  version: 20.0.2
-  origversion: 20.0.2-17.el9
-  status: outdated
-  summary: Command-line JSON processing tool
-  licenses:
-    - MIT and OFL
-  categories:
-    - Unspecified
 - repo: alpine_3_22
   subrepo: community
   srcname: fx
@@ -158,7 +192,7 @@
   binname: fx
   visiblename: fx
   version: 40.0.1
-  origversion: 40.0.1-r0
+  origversion: 40.0.1-r1
   status: newest
   summary: Command-line tool and terminal JSON viewer
   maintainers:
@@ -171,7 +205,7 @@
   binname: fx-bash-completion
   visiblename: fx-bash-completion
   version: 40.0.1
-  origversion: 40.0.1-r0
+  origversion: 40.0.1-r1
   status: newest
   summary: Bash completions for fx
   maintainers:
@@ -184,7 +218,7 @@
   binname: fx-doc
   visiblename: fx-doc
   version: 40.0.1
-  origversion: 40.0.1-r0
+  origversion: 40.0.1-r1
   status: newest
   summary: Command-line tool and terminal JSON viewer (documentation)
   maintainers:
@@ -197,7 +231,7 @@
   binname: fx-fish-completion
   visiblename: fx-fish-completion
   version: 40.0.1
-  origversion: 40.0.1-r0
+  origversion: 40.0.1-r1
   status: newest
   summary: Fish completions for fx
   maintainers:
@@ -210,7 +244,7 @@
   binname: fx-zsh-completion
   visiblename: fx-zsh-completion
   version: 40.0.1
-  origversion: 40.0.1-r0
+  origversion: 40.0.1-r1
   status: newest
   summary: Zsh completions for fx
   maintainers:
@@ -249,6 +283,30 @@
     - MIT
   categories:
     - Text tools
+- repo: arch
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
+- repo: epel_9
+  srcname: fx
+  binnames:
+    - fx
+  visiblename: fx
+  version: 20.0.2
+  origversion: 20.0.2-17.el9
+  status: outdated
+  summary: Command-line JSON processing tool
+  licenses:
+    - MIT and OFL
+  categories:
+    - Unspecified
 - repo: freebsd
   srcname: sysutils/fx
   binname: fx
@@ -312,20 +370,6 @@
     - ISC
   categories:
     - app-misc
-- repo: homebrew
-  srcname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  summary: Terminal JSON viewer
-- repo: homebrew
-  srcname: fx
-  visiblename: fx
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal JSON viewer
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -457,50 +501,6 @@
   origversion: 40.0.1-1
   status: newest
   summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: fx
-  visiblename: fx
-  version: 34.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: fx
-  visiblename: fx
-  version: 36.0.3
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - phanirithvij2000@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_26_05
