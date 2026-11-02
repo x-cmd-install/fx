@@ -20,42 +20,6 @@
     - phanirithvij2000@gmail.com
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: fx
-  visiblename: fx
-  version: 34.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: fx
-  visiblename: fx
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal JSON viewer
-- repo: nix_stable_24_11
-  srcname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: homebrew
-  srcname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  summary: Terminal JSON viewer
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -370,6 +334,20 @@
     - ISC
   categories:
     - app-misc
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Terminal JSON viewer
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal JSON viewer
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -503,6 +481,28 @@
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: fx
+  visiblename: fx
+  version: 34.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: fx
+  visiblename: fx
+  version: 35.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
@@ -613,9 +613,9 @@
   srcname: bin/fx
   binname: bin/fx
   visiblename: bin/fx
-  version: 40.0.0
+  version: 40.0.1
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
