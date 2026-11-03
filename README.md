@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,695 · **Forks**: 498 · **Open issues**: 271 · **Contributors**: 43
+- **Stars**: 20,696 · **Forks**: 498 · **Open issues**: 271 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 2 | 2 | 5 | 0 | 0 | 2 |
-| last60d | 2026-09-03 | 2 | 4 | 5 | 2 | 0 | 97 |
-| 90d | 2026-08-04 | 2 | 4 | 5 | 3 | 0 | 98 |
-| last180d | 2026-05-06 | 2 | 8 | 5 | 9 | 0 | 99 |
-| 360d | 2025-11-07 | 3 | 12 | 5 | 28 | 0 | 144 |
-| last720d | 2024-11-12 | 17 | 23 | 5 | 59 | 4 | 296 |
+| 30d | 2026-10-04 | 2 | 2 | 5 | 0 | 0 | 2 |
+| last60d | 2026-09-04 | 2 | 4 | 5 | 2 | 0 | 97 |
+| 90d | 2026-08-05 | 2 | 4 | 5 | 3 | 0 | 98 |
+| last180d | 2026-05-07 | 2 | 7 | 5 | 9 | 0 | 99 |
+| 360d | 2025-11-08 | 3 | 12 | 5 | 28 | 0 | 144 |
+| last720d | 2024-11-13 | 17 | 23 | 5 | 59 | 4 | 296 |
 
 ## Release assets
 
@@ -78,7 +78,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **51** distros on [repology.org](https://repology.org/project/fx). **16** are ✅ on the latest upstream release, **29** are ⚠️ on an older version.
+Reported by **51** distros on [repology.org](https://repology.org/project/fx). **17** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **51** distros on [repology.org](https://repology.org/project/fx). *
 | Nix unstable | `40.0.1` | ✅ latest |
 | Void | `39.2.0` | ⚠️ outdated |
 | Alpine edge | `40.0.1` | ✅ latest |
-| openSUSE Tumbleweed | `40.0.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `40.0.1` | ✅ latest |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T05:55:01Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T06:39:19Z._
