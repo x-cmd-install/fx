@@ -1,19 +1,114 @@
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
+- repo: stalix_dev
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: termux
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Interactive JSON viewer on your terminal
+  maintainers:
+    - flosnvjx@github
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/fx
+  binname: fx
+  visiblename: fx
+  version: 39.0.1
+  origversion: 39.0.1-r1
+  status: outdated
+  maintainers:
+    - dynasticorpheus@gmail.com
+  categories:
+    - utils
+- repo: nix_stable_25_05
+  srcname: fx
+  visiblename: fx
+  version: 36.0.3
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - phanirithvij2000@gmail.com
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: epel_9
   srcname: fx
   binnames:
     - fx
-    - fx-debuginfo
-    - fx-debugsource
   visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1.1
-  status: newest
-  summary: Terminal JSON viewer
+  version: 20.0.2
+  origversion: 20.0.2-17.el9
+  status: outdated
+  summary: Command-line JSON processing tool
   licenses:
-    - MIT
+    - MIT and OFL
   categories:
-    - Productivity/Text/Utilities
+    - Unspecified
+- repo: freebsd
+  srcname: sysutils/fx
+  binname: fx
+  visiblename: sysutils/fx
+  version: 35.0.0
+  origversion: 35.0.0_26
+  status: outdated
+  summary: Terminal JSON viewer and processor
+  maintainers:
+    - sunpoet@freebsd.org
+  categories:
+    - sysutils
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -252,31 +347,6 @@
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
-- repo: epel_9
-  srcname: fx
-  binnames:
-    - fx
-  visiblename: fx
-  version: 20.0.2
-  origversion: 20.0.2-17.el9
-  status: outdated
-  summary: Command-line JSON processing tool
-  licenses:
-    - MIT and OFL
-  categories:
-    - Unspecified
-- repo: freebsd
-  srcname: sysutils/fx
-  binname: fx
-  visiblename: sysutils/fx
-  version: 35.0.0
-  origversion: 35.0.0_26
-  status: outdated
-  summary: Terminal JSON viewer and processor
-  maintainers:
-    - sunpoet@freebsd.org
-  categories:
-    - sysutils
 - repo: gentoo
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -497,28 +567,6 @@
     - figsoda@pm.me
   licenses:
     - MIT
-- repo: nix_stable_25_05
-  srcname: fx
-  visiblename: fx
-  version: 36.0.3
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - phanirithvij2000@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
@@ -577,70 +625,22 @@
     - MIT
   categories:
     - Productivity/Text/Utilities
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/fx
-  binname: fx
-  visiblename: fx
-  version: 39.0.1
-  origversion: 39.0.1-r1
-  status: outdated
-  maintainers:
-    - dynasticorpheus@gmail.com
-  categories:
-    - utils
-- repo: parabola
-  subrepo: extra
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
   srcname: fx
-  binname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
   visiblename: fx
   version: 40.0.1
-  origversion: 40.0.1-1
+  origversion: 40.0.1-1.1
   status: newest
-  summary: Command-line tool and terminal JSON viewer
+  summary: Terminal JSON viewer
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: stalix
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
   categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: termux
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  summary: Interactive JSON viewer on your terminal
-  maintainers:
-    - flosnvjx@github
+    - Productivity/Text/Utilities
 - repo: void_x86_64
   subrepo: x86_64
   srcname: fx
