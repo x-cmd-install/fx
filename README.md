@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,702 · **Forks**: 498 · **Open issues**: 271 · **Contributors**: 43
+- **Stars**: 20,703 · **Forks**: 499 · **Open issues**: 271 · **Contributors**: 43
 
 ## Totals (cumulative)
 
-- **Releases**: 79 · **Merged PRs**: 62 · **Open PRs**: 5 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 893
+- **Releases**: 79 · **Merged PRs**: 62 · **Open PRs**: 6 · **Closed issues**: 267 · **Open issues**: 4 · **Commits**: 893
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 2 | 4 | 0 | 0 | 2 |
-| last60d | 2026-09-06 | 2 | 4 | 5 | 2 | 0 | 97 |
-| 90d | 2026-08-07 | 2 | 4 | 5 | 3 | 0 | 98 |
-| last180d | 2026-05-09 | 2 | 6 | 5 | 8 | 0 | 99 |
-| 360d | 2025-11-10 | 3 | 12 | 5 | 28 | 0 | 144 |
-| last720d | 2024-11-15 | 17 | 23 | 5 | 59 | 4 | 296 |
+| 30d | 2026-10-07 | 1 | 1 | 5 | 0 | 0 | 2 |
+| last60d | 2026-09-07 | 2 | 4 | 6 | 2 | 0 | 97 |
+| 90d | 2026-08-08 | 2 | 4 | 6 | 3 | 0 | 98 |
+| last180d | 2026-05-10 | 2 | 5 | 6 | 8 | 0 | 99 |
+| 360d | 2025-11-11 | 3 | 12 | 6 | 27 | 0 | 144 |
+| last720d | 2024-11-16 | 17 | 23 | 6 | 59 | 4 | 296 |
 
 ## Release assets
 
@@ -76,19 +76,6 @@ Lowest-scoring checks:
 | [fx_windows_amd64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe) | 20.8 MiB | `native/win/x64` |
 | [fx_windows_arm64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_arm64.exe) | 19.5 MiB | `native/win/arm64` |
 
-## Distribution status
-
-Reported by **51** distros on [repology.org](https://repology.org/project/fx). **17** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Arch | `40.0.1` | ✅ latest |
-| Homebrew | `40.0.1` | ✅ latest |
-| Nix unstable | `40.0.1` | ✅ latest |
-| Void | `39.2.0` | ⚠️ outdated |
-| Alpine edge | `40.0.1` | ✅ latest |
-| openSUSE Tumbleweed | `40.0.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fx` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -98,4 +85,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T06:34:44Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T06:30:04Z._
