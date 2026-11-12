@@ -1,17 +1,58 @@
-- repo: homebrew
+- repo: nix_stable_24_05
   srcname: fx
   visiblename: fx
-  version: HEAD
+  version: 34.0.0
   origversion: null
-  status: rolling
+  status: outdated
   summary: Terminal JSON viewer
-- repo: homebrew
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
   srcname: fx
+  visiblename: fx
+  version: 35.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: fx
+  visiblename: fx
+  version: 36.0.3
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - phanirithvij2000@gmail.com
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: fx
+  binname: fx
   visiblename: fx
   version: 40.0.1
-  origversion: null
+  origversion: 40.0.1-1
   status: newest
-  summary: Terminal JSON viewer
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -207,6 +248,22 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1.1
+  status: newest
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: alt_p11
   srcname: fx
   binnames:
@@ -268,7 +325,7 @@
   binname: fx
   visiblename: sysutils/fx
   version: 40.0.1
-  origversion: null
+  origversion: 40.0.1_1
   status: newest
   summary: Terminal JSON viewer and processor
   maintainers:
@@ -326,6 +383,20 @@
     - ISC
   categories:
     - app-misc
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  summary: Terminal JSON viewer
+- repo: homebrew
+  srcname: fx
+  visiblename: fx
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal JSON viewer
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -448,61 +519,6 @@
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: fx
-  visiblename: fx
-  version: 34.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: fx
-  visiblename: fx
-  version: 36.0.3
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - phanirithvij2000@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
@@ -556,22 +572,6 @@
   version: 24.1.0
   origversion: 24.1.0-bp156.1.13
   status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1.1
-  status: newest
   summary: Terminal JSON viewer
   licenses:
     - MIT
