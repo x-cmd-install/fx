@@ -1,58 +1,15 @@
-- repo: nix_stable_24_05
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
   srcname: fx
   visiblename: fx
-  version: 34.0.0
-  origversion: null
+  version: 24.0.0
+  origversion: 24.0.0-bp155.1.26
   status: outdated
   summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: fx
-  visiblename: fx
-  version: 36.0.3
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - phanirithvij2000@gmail.com
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -248,22 +205,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1.1
-  status: newest
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: alt_p11
   srcname: fx
   binnames:
@@ -414,6 +355,18 @@
     - ISC
   categories:
     - app-misc
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.1.0
+  origversion: 24.1.0-bp156.1.13
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -519,6 +472,61 @@
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: fx
+  visiblename: fx
+  version: 34.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: fx
+  visiblename: fx
+  version: 35.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: fx
+  visiblename: fx
+  version: 36.0.3
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - phanirithvij2000@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
@@ -553,25 +561,17 @@
     - ports@openbsd.org
   categories:
     - textproc
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
   srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
   visiblename: fx
-  version: 24.0.0
-  origversion: 24.0.0-bp155.1.26
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: fx
-  visiblename: fx
-  version: 24.1.0
-  origversion: 24.1.0-bp156.1.13
-  status: outdated
+  version: 40.0.1
+  origversion: 40.0.1-1.1
+  status: newest
   summary: Terminal JSON viewer
   licenses:
     - MIT
