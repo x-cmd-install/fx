@@ -1,15 +1,16 @@
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
+- repo: alpine_3_21
+  subrepo: community
   srcname: fx
+  binname: fx
   visiblename: fx
-  version: 24.0.0
-  origversion: 24.0.0-bp155.1.26
+  version: 35.0.0
+  origversion: 35.0.0-r5
   status: outdated
-  summary: Terminal JSON viewer
+  summary: Command-line tool and terminal JSON viewer
+  maintainers:
+    - yd-alpine@tetsumaki.net
   licenses:
     - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -32,19 +33,6 @@
   origversion: 34.0.0-r4
   status: outdated
   summary: Command-line tool and terminal JSON viewer (documentation)
-  maintainers:
-    - yd-alpine@tetsumaki.net
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: 35.0.0-r5
-  status: outdated
-  summary: Command-line tool and terminal JSON viewer
   maintainers:
     - yd-alpine@tetsumaki.net
   licenses:
@@ -73,6 +61,17 @@
   summary: Command-line tool and terminal JSON viewer
   maintainers:
     - yd-alpine@tetsumaki.net
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -237,17 +236,6 @@
     - MIT
   categories:
     - Text tools
-- repo: arch
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
 - repo: epel_9
   srcname: fx
   binnames:
@@ -355,18 +343,19 @@
     - ISC
   categories:
     - app-misc
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
+- repo: void_x86_64
+  subrepo: x86_64
   srcname: fx
+  binname: fx
   visiblename: fx
-  version: 24.1.0
-  origversion: 24.1.0-bp156.1.13
+  version: 39.2.0
+  origversion: 39.2.0_2
   status: outdated
-  summary: Terminal JSON viewer
+  summary: Terminal JSON viewer & processor
+  maintainers:
+    - pangolin@vivaldi.net
   licenses:
     - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: liguros_stable
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -418,6 +407,15 @@
     - ISC
   categories:
     - app-misc
+- repo: scoop
+  subrepo: main
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -561,6 +559,30 @@
     - ports@openbsd.org
   categories:
     - textproc
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.0.0
+  origversion: 24.0.0-bp155.1.26
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.1.0
+  origversion: 24.1.0-bp156.1.13
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: fx
@@ -600,15 +622,6 @@
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
-- repo: scoop
-  subrepo: main
-  binname: fx
-  visiblename: fx
-  version: 40.0.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: stalix
   srcname: bin/fx
   binname: bin/fx
@@ -641,16 +654,3 @@
   summary: Interactive JSON viewer on your terminal
   maintainers:
     - flosnvjx@github
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: 39.2.0_2
-  status: outdated
-  summary: Terminal JSON viewer & processor
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - MIT
