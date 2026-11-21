@@ -14,12 +14,12 @@ x install fx
 
 ## Code insight
 
-Total: **25,640** lines of code across **141** files in the top 5 languages.
+Total: **25,841** lines of code across **142** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 24,258 | 1,238 | 2,535 | 130 |
-| JavaScript | 1,223 | 4 | 161 | 5 |
+| Go | 24,386 | 1,242 | 2,545 | 131 |
+| JavaScript | 1,296 | 8 | 167 | 5 |
 | Json | 68 | 0 | 0 | 4 |
 | Yaml | 45 | 0 | 5 | 1 |
 | Zsh | 33 | 3 | 5 | 1 |
@@ -42,52 +42,52 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `40.0.1` (2026-10-22)
-- **Last commit**: 2026-10-22
+- **Latest**: `40.0.2` (2026-11-20)
+- **Last commit**: 2026-11-20
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 20,720 · **Forks**: 504 · **Open issues**: 272 · **Contributors**: 43
+- **Stars**: 20,721 · **Forks**: 504 · **Open issues**: 274 · **Contributors**: 47
 
 ## Totals (cumulative)
 
-- **Releases**: 79 · **Merged PRs**: 62 · **Open PRs**: 8 · **Closed issues**: 267 · **Open issues**: 5 · **Commits**: 893
+- **Releases**: 80 · **Merged PRs**: 67 · **Open PRs**: 3 · **Closed issues**: 267 · **Open issues**: 7 · **Commits**: 900
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 0 | 7 | 0 | 1 | 0 |
-| last60d | 2026-09-21 | 2 | 4 | 8 | 0 | 1 | 97 |
-| 90d | 2026-08-22 | 2 | 4 | 8 | 3 | 1 | 98 |
-| last180d | 2026-05-24 | 2 | 5 | 8 | 7 | 1 | 99 |
-| 360d | 2025-11-25 | 2 | 12 | 8 | 27 | 1 | 144 |
-| last720d | 2024-11-30 | 17 | 23 | 8 | 58 | 5 | 296 |
+| 30d | 2026-10-22 | 2 | 5 | 2 | 0 | 3 | 7 |
+| last60d | 2026-09-22 | 3 | 8 | 3 | 0 | 3 | 104 |
+| 90d | 2026-08-23 | 3 | 9 | 3 | 3 | 3 | 105 |
+| last180d | 2026-05-25 | 3 | 10 | 3 | 7 | 3 | 106 |
+| 360d | 2025-11-26 | 3 | 17 | 3 | 27 | 3 | 151 |
+| last720d | 2024-12-01 | 18 | 28 | 3 | 58 | 7 | 303 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [fx_darwin_amd64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_darwin_amd64) | 20.6 MiB | `native/darwin/x64` |
-| [fx_darwin_arm64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_darwin_arm64) | 19.7 MiB | `native/darwin/arm64` |
-| [fx_linux_amd64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_linux_amd64) | 20.3 MiB | `native/linux/x64` |
-| [fx_linux_arm64](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_linux_arm64) | 19.3 MiB | `native/linux/arm64` |
-| [fx_windows_amd64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe) | 20.8 MiB | `native/win/x64` |
-| [fx_windows_arm64.exe](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_arm64.exe) | 19.5 MiB | `native/win/arm64` |
+| [fx_darwin_amd64](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_darwin_amd64) | 21.5 MiB | `native/darwin/x64` |
+| [fx_darwin_arm64](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_darwin_arm64) | 20.4 MiB | `native/darwin/arm64` |
+| [fx_linux_amd64](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_linux_amd64) | 21.3 MiB | `native/linux/x64` |
+| [fx_linux_arm64](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_linux_arm64) | 20.1 MiB | `native/linux/arm64` |
+| [fx_windows_amd64.exe](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_windows_amd64.exe) | 21.7 MiB | `native/win/x64` |
+| [fx_windows_arm64.exe](https://github.com/antonmedv/fx/releases/download/40.0.2/fx_windows_arm64.exe) | 20.2 MiB | `native/win/arm64` |
 
 ## Distribution status
 
-Reported by **51** distros on [repology.org](https://repology.org/project/fx). **19** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **51** distros on [repology.org](https://repology.org/project/fx). **9** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `40.0.1` | ✅ latest |
-| Homebrew | `40.0.1` | ✅ latest |
-| Nix unstable | `40.0.1` | ✅ latest |
+| Arch | `40.0.1` | ⚠️ outdated |
+| Homebrew | `40.0.2` | ✅ latest |
+| Nix unstable | `40.0.1` | ⚠️ outdated |
 | Void | `39.2.0` | ⚠️ outdated |
-| Alpine edge | `40.0.1` | ✅ latest |
-| openSUSE Tumbleweed | `40.0.1` | ✅ latest |
+| Alpine edge | `40.0.2` | ✅ latest |
+| openSUSE Tumbleweed | `40.0.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +98,4 @@ Install metadata for fx lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:11:57Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T06:58:30Z._
