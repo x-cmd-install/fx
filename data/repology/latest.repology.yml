@@ -1,26 +1,3 @@
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.2
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: fx
-  visiblename: fx
-  version: 24.1.0
-  origversion: 24.1.0-bp156.1.13
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -99,19 +76,6 @@
     - yd-alpine@tetsumaki.net
   licenses:
     - MIT
-- repo: epel_9
-  srcname: fx
-  binnames:
-    - fx
-  visiblename: fx
-  version: 20.0.2
-  origversion: 20.0.2-17.el9
-  status: outdated
-  summary: Command-line JSON processing tool
-  licenses:
-    - MIT and OFL
-  categories:
-    - Unspecified
 - repo: alpine_3_23
   subrepo: community
   srcname: fx
@@ -125,6 +89,17 @@
     - cielesti@protonmail.com
   licenses:
     - MIT
+- repo: stalix_dev
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_23
   subrepo: community
   srcname: fx
@@ -266,12 +241,25 @@
   srcname: fx
   binname: fx
   visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: outdated
+  version: 40.0.2
+  origversion: 40.0.2-1
+  status: newest
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
+- repo: epel_9
+  srcname: fx
+  binnames:
+    - fx
+  visiblename: fx
+  version: 20.0.2
+  origversion: 20.0.2-17.el9
+  status: outdated
+  summary: Command-line JSON processing tool
+  licenses:
+    - MIT and OFL
+  categories:
+    - Unspecified
 - repo: freebsd
   srcname: sysutils/fx
   binname: fx
@@ -476,9 +464,9 @@
   srcname: fx
   binname: fx
   visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1
-  status: outdated
+  version: 40.0.2
+  origversion: 40.0.2-1
+  status: newest
   summary: Command-line tool and terminal JSON viewer
   licenses:
     - MIT
@@ -529,9 +517,9 @@
 - repo: nix_stable_26_05
   srcname: fx
   visiblename: fx
-  version: 40.0.1
+  version: 40.0.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal JSON viewer
   maintainers:
     - phanirithvij2000@gmail.com
@@ -540,9 +528,9 @@
 - repo: nix_unstable
   srcname: fx
   visiblename: fx
-  version: 40.0.1
+  version: 40.0.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal JSON viewer
   maintainers:
     - phanirithvij2000@gmail.com
@@ -566,6 +554,18 @@
   visiblename: fx
   version: 24.0.0
   origversion: 24.0.0-bp155.1.26
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fx
+  visiblename: fx
+  version: 24.1.0
+  origversion: 24.1.0-bp156.1.13
   status: outdated
   summary: Terminal JSON viewer
   licenses:
@@ -624,9 +624,9 @@
   srcname: bin/fx
   binname: bin/fx
   visiblename: bin/fx
-  version: 40.0.1
+  version: 40.0.2
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
