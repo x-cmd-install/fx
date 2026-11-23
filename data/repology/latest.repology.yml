@@ -89,17 +89,6 @@
     - cielesti@protonmail.com
   licenses:
     - MIT
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.2
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: alpine_3_23
   subrepo: community
   srcname: fx
@@ -204,6 +193,22 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1.1
+  status: outdated
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: alt_p11
   srcname: fx
   binnames:
@@ -426,9 +431,9 @@
   srcname: sysutils/fx
   binname: fx
   visiblename: fx
-  version: 40.0.1
+  version: 40.0.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal JSON viewer & processor
   maintainers:
     - sikmir@github
@@ -572,22 +577,6 @@
     - MIT
   categories:
     - Productivity/Text/Utilities
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1.1
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/fx
@@ -621,6 +610,17 @@
   licenses:
     - MIT
 - repo: stalix
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
   srcname: bin/fx
   binname: bin/fx
   visiblename: bin/fx
