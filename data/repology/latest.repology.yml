@@ -1,3 +1,80 @@
+- repo: nix_stable_25_11
+  srcname: fx
+  visiblename: fx
+  version: 39.2.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - phanirithvij2000@gmail.com
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/fx
+  binname: bin/fx
+  visiblename: bin/fx
+  version: 40.0.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.1
+  origversion: 40.0.1-1
+  status: outdated
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: fx
+  binname: fx
+  visiblename: fx
+  version: 40.0.2
+  origversion: 40.0.2-1
+  status: newest
+  summary: Command-line tool and terminal JSON viewer
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: fx
+  visiblename: fx
+  version: 34.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: fx
+  visiblename: fx
+  version: 35.0.0
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: fx
@@ -193,22 +270,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: fx
-  binnames:
-    - fx
-    - fx-debuginfo
-    - fx-debugsource
-  visiblename: fx
-  version: 40.0.1
-  origversion: 40.0.1-1.1
-  status: outdated
-  summary: Terminal JSON viewer
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Text/Utilities
 - repo: alt_p11
   srcname: fx
   binnames:
@@ -277,6 +338,17 @@
     - sunpoet@freebsd.org
   categories:
     - sysutils
+- repo: nix_stable_25_05
+  srcname: fx
+  visiblename: fx
+  version: 36.0.3
+  origversion: null
+  status: outdated
+  summary: Terminal JSON viewer
+  maintainers:
+    - figsoda@pm.me
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: app-misc/fx
   visiblename: app-misc/fx
@@ -447,76 +519,10 @@
   srcname: fx
   binname: fx
   visiblename: fx
-  version: 40.0.0
-  origversion: 40.0.0-1
-  status: outdated
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
   version: 40.0.1
   origversion: 40.0.1-1
   status: outdated
   summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: fx
-  binname: fx
-  visiblename: fx
-  version: 40.0.2
-  origversion: 40.0.2-1
-  status: newest
-  summary: Command-line tool and terminal JSON viewer
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: fx
-  visiblename: fx
-  version: 34.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: fx
-  visiblename: fx
-  version: 35.0.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: fx
-  visiblename: fx
-  version: 36.0.3
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: fx
-  visiblename: fx
-  version: 39.2.0
-  origversion: null
-  status: outdated
-  summary: Terminal JSON viewer
-  maintainers:
-    - phanirithvij2000@gmail.com
   licenses:
     - MIT
 - repo: nix_stable_26_05
@@ -577,6 +583,22 @@
     - MIT
   categories:
     - Productivity/Text/Utilities
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: fx
+  binnames:
+    - fx
+    - fx-debuginfo
+    - fx-debugsource
+  visiblename: fx
+  version: 40.0.2
+  origversion: 40.0.2-1.1
+  status: newest
+  summary: Terminal JSON viewer
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Text/Utilities
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/utils/fx
@@ -609,28 +631,6 @@
   status: newest
   licenses:
     - MIT
-- repo: stalix
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.2
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/fx
-  binname: bin/fx
-  visiblename: bin/fx
-  version: 40.0.2
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: termux
   srcname: fx
   binname: fx
